@@ -1,0 +1,7 @@
+sudo apt update
+
+sudo apt install software-properties-common
+
+sudo apt-add-repository 'deb http://security.debian.org/debian-security stretch/updates main'
+
+sudo apt install openjdk-8-jdk
